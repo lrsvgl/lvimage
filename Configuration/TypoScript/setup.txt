@@ -1,0 +1,19 @@
+
+plugin.tx_lvimage_bgslides {
+	view {
+		templateRootPaths.0 = {$plugin.tx_lvimage_bgslides.view.templateRootPath}
+		partialRootPaths.0 = {$plugin.tx_lvimage_bgslides.view.partialRootPath}
+		layoutRootPaths.0 = {$plugin.tx_lvimage_bgslides.view.layoutRootPath}
+	}
+	persistence {
+		storagePid = {$plugin.tx_lvimage_bgslides.persistence.storagePid}
+	}
+}
+page {
+	includeJS {
+		file99 = EXT:lvimage/Resources/Public/Js/vegas.min.js
+	}
+	includeCSS {
+		file99 = EXT:lvimage/Resources/Public/Css/vegas.css
+	}
+}

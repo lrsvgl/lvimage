@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="de" datatype="plaintext" original="messages" date="2016-11-16T11:36:26Z" product-name="lvimage">
+		<header/>
+		<body>
+			<trans-unit id="tx_lvimage_domain_model_slide">
+				<source>Slide</source>
+			</trans-unit>
+			<trans-unit id="tx_lvimage_domain_model_slide.titel">
+				<source>Titel</source>
+			</trans-unit>
+			<trans-unit id="tx_lvimage_domain_model_slide.bild">
+				<source>Bild</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
