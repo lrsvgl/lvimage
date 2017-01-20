@@ -12,4 +12,10 @@ plugin.tx_lvimage_bgslides {
 		# cat=plugin.tx_lvimage_bgslides//a; type=string; label=Default storage PID
 		storagePid =
 	}
+	settings {
+		# cat=plugin.tx_lvimage_bgslides//a; type=string; label=Default dataIntervall
+		dataIntervall = 3500
+		# cat=plugin.tx_lvimage_bgslides//a; type=string; label=Default dataIntervall
+		transitionDuration = 2000
+	}
 }

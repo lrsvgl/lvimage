@@ -8,6 +8,10 @@ plugin.tx_lvimage_bgslides {
 	persistence {
 		storagePid = {$plugin.tx_lvimage_bgslides.persistence.storagePid}
 	}
+	settings {
+		dataIntervall = {$plugin.tx_lvimage_bgslides.settings.dataIntervall}
+		transitionDuration = {$plugin.tx_lvimage_bgslides.settings.transitionDuration}
+	}
 }
 page {
 	includeJS {

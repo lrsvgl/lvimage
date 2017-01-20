@@ -31,6 +31,8 @@ namespace Lv\Lvimage\Domain\Repository;
  */
 class SlideRepository extends \TYPO3\CMS\Extbase\Persistence\Repository
 {
-
+	protected $defaultOrderings = array(
+		'sorting' => \TYPO3\CMS\Extbase\Persistence\QueryInterface::ORDER_ASCENDING
+	);
     
 }

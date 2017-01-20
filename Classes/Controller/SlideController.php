@@ -48,6 +48,8 @@ class SlideController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
     public function listAction()
     {
         $slides = $this->slideRepository->findAll();
+	    $this->settings = $this->configurationManager;
+	    //debug($this->settings);
         $this->view->assign('slides', $slides);
     }
 
